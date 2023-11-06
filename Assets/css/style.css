@@ -1,0 +1,75 @@
+.app-sidebar__user-avatar{
+    width:48px;
+    background: gray;
+    padding: 6px;
+}
+
+.app-header{
+    background-color: #F40009;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #F40009;
+  }
+
+.linkw:hover{
+    text-decoration: none;
+    background-color: #1bea56;
+}
+
+/* login loading*/
+#divLoading{
+    position: absolute;
+    top: 0;
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(254,254,255, .65);
+    z-index: 1;
+    display: none;
+}
+
+#divLoading img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.material-half-bg .cover {
+    background-color: #F40009;
+  }
+
+  .btn-primary {
+    color: #FFF;
+    background-color: #F40009;
+    border-color: #F40009;
+  }
+  
+  .btn-primary:hover {
+    color: #FFF;
+    background-color: #c12e2e ;
+    border-color: #c12e2e ;
+  }
+
+  .form-control:focus {
+    border-color: #F40009;
+  }
+
+  .semibold-text{
+    color: #F40009;
+  }
+
+  .app-header__logo{
+    background-color: #F40009;
+  }
+
+  .imagenLogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 5;
+  }
+

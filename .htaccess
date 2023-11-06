@@ -1,0 +1,12 @@
+# Permite rescribir las peticiones de URL
+Options All -Indexes
+RewriteEngine On
+
+# Si el archivo y la  carpeta no exiten hacer redireccionamiento
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#Redirecciona todas las peticines a index
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+Header set Access-Control-Allow-Origin '*'
